@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter {
+        color: crimson;
+      }
+      p::before {
+        content: "🚀";
+      }
+      p::after {
+        content: "🤨";
+      }
+      div button:nth-child(2) {
+        color: red;
+      }
+      button:hover {
+        color: blueviolet;
+      }
+      .button:active {
+        color: green;
+      }
+      h1:hover {
+        background-color: blueviolet;
+        color: aqua;
+      }
+      h1::before {
+        content: "🤨";
+      }
+      h1::after {
+        content: "🤨";
+      }
+      input::placeholder {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>hola</p>
+    <div>
+      <button>button</button>
+      <button>button2</button>
+      <button>button3</button>
+      <button class="button">button4</button>
+      <input type="text" placeholder="escribe aqui" />
+      <h1>jajaja</h1>
+      <h1>asdasdas</h1>
+      <h1>asdadsa</h1>
+      <p>Platzi</p>
+      <p>Master</p>
+      <p>Lo Mejor</p>
+    </div>
+  </body>
+</html>

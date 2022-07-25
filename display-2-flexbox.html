@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: papayawhip;
+        flex-direction: column;
+        height: 700px;
+      }
+      .item {
+        background-color: aqua;
+        width: 40px;
+        height: 40px;
+      }
+      .container .item:nth-child(2n + 1) {
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">hijo1</div>
+      <div class="item">hijo2</div>
+      <div class="item">hijo3</div>
+      <div class="item">hijo4</div>
+      <div class="item">hijo5</div>
+      <div class="item">hijo6</div>
+      <div class="item">hijo7</div>
+      <div class="item">hijo8</div>
+      <div class="item">hijo9</div>
+      <div class="item">hijo10</div>
+      <div class="item">hijo11</div>
+    </div>
+  </body>
+</html>
